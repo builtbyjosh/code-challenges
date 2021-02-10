@@ -2,8 +2,12 @@
 
 ## Part 1: Conceptual questions
 1. What do we mean when we say functions are first-class objects?
+    - Treat functions like a variable and stored as a variable.
 2. What is function scope and how does the scope chain work?
+    - variables declared in function are only available with that function. But global is available everywhere.
 3. What is pass-by-value vs pass-by-reference and which rule applies to objects?
+    - objects and arryas are pass by reference, primatives are pass by value
+    - deep copy and shallow copy
 
 ## Part 2: Coding Challenge - Build some Functions
 * If you built a Plant API for your last challenge, copy those files to this directory and edit the index.js file. If not,  add the seeds from this repository (https://github.com/allisonkadel/code-challenges/tree/master/JavaScript/building-apis) and create an API with json-server (https://github.com/typicode/json-server). Then create a new index.js file.
